@@ -12,7 +12,7 @@ const Products=()=>{
     const handleAddToCart=(product)=>{
         dispatch(AddToCart(product))
         Swal.fire({
-            title:'cart updated',
+            title:'Added to cart',
             icon:'success',
             showCancelButton:false,
             timerProgressBar:true,
