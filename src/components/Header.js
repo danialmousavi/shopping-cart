@@ -19,7 +19,7 @@ return(
       </ul>
       <ul className="navbar-nav ms-auto">
         <li className="nav-item">
-            <NavLink className="nav-link p-1 me-3" >
+            <NavLink className="nav-link p-1 me-3" to="/cart" >
                 <span className="badge rounded-pill bg-primary me-1">0</span>
                 <i className="bi bi-basket-fill fs-4"></i>
             </NavLink>
